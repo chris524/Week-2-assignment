@@ -174,7 +174,7 @@ blockquote span {
   vertical-align: top;
 }
 #sidebar {
-  width: 25%;
+  width: 20%;
   display: inline-block;
   vertical-align: top;
 }
@@ -293,7 +293,7 @@ footer p {
         display:none;
     }
 }
-@media screen and (min-width: 996px) and (max-width:1055px){
+@media screen and (min-width: 960px) and (max-width:1055px){
     h1{
         font-size: 1.5em;
     }
@@ -303,7 +303,7 @@ footer p {
         display:none;
     }
 }
-@media screen and (min-width: 480px) and (max-width:996px){
+@media screen and (max-width:768px){
     body{
         color:red;
     }
@@ -324,31 +324,10 @@ footer p {
     .tout{
         width:100%;
     }
+    #sidebar {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  }
 }
-@media screen and (max-width:480px){
-    body{
-        color:green;
-    }
-    nav{
-        display: ;
-    }
-    nav li{
-        margin:auto;
-        display:block;
-        width:100%;
-    }
 
-    .hamburger{
-        display:show;
-    }
-
-    .tout{
-        width:100%;
-    }
-    .blurb{
-        clear:both;
-        width:100%;
-        float:left;
-        padding:0;
-    }
-}
